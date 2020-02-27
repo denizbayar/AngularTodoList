@@ -1,0 +1,23 @@
+.todo-item{
+    max-width: 500px;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    background-color: rgb(193, 191, 196);
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    border-radius: 7px;
+}
+
+.btn{
+    padding: 5px;
+    background-color: rgb(243, 23, 67);
+    width: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.is-completed{
+    text-decoration: line-through;
+}
